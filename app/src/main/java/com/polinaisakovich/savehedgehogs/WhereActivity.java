@@ -29,19 +29,24 @@ public class WhereActivity extends AppCompatActivity implements View.OnClickList
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.btnOneMore:
-                Intent intent = new Intent(this, ThirdActivity.class);
-                startActivity(intent);
+                startThirdActivity();
                 break;
-            default:
-                break;
-        }
-        switch (v.getId()) {
             case R.id.btnWhere:
-                Intent intent = new Intent(this, PreActivity.class);
-                startActivity(intent);
+                startPreActivity();
                 break;
             default:
                 break;
         }
+    }
+
+
+    private void startThirdActivity() {
+        Intent intent = new Intent(this, ThirdActivity.class);
+        startActivity(intent);
+    }
+
+    private void startPreActivity() {
+        Intent intent = new Intent(this, PreActivity.class);
+        startActivity(intent);
     }
 }
