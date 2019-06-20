@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Батарейки убивают ёжиков</string>
+    <string name="txtMainActivity">Одна батарейка,\nвыброшенная \nв мусорное ведро,\nможет загрязнить\nтяжёлыми металлами\n20 м² земли.</string>
+    <string name="btnSecondAct">Дальше</string>
+    <string name="txtSecondActivity">На этой территории\nможет расти\n10 деревьев,\nжить два крота,\nвосемь белок,\nодин ёжик.</string>
+    <string name="btnThirdAct">Дальше</string>
+    <string name="txtThirdActivity">Спасти природу\nот загрязнения можно,\nсдав батарейки\nв утилизацию.</string>
+    <string name="txtSecondActivity_2">Посчитайте\nбатарейки дома.</string>
+    <string name="editTxtUsersBatteries">Сколько у вас батареек?</string>
+    <string name="btnFourthAct">Посчитать</string>
+    <string name="txtFourthActivity">Сколько батареек\nвы сдадите\nв утилизацию:</string>
+    <string name="txtNumberOfBatteries">TextView</string>
+    <string name="txtFourthActivity_2">textview</string>
+    <string name="btnOneMore">Посчитать ещё</string>
+    <string name="txtSupport">Приложение создано\nпри поддержке</string>
+    <string name="btnAbout">О компании Coşkunöz Alabuga</string>
+    <string name="btnStart">Начать</string>
+    <string name="txtAbout">Текст о компании Текст о компании Текст о компании Текст о компании Текст о компании Текст о компании Текст о компании Текст о компании</string>
+    <string name="btnWhere">Где сдать батарейки</string>
+    <string name="txtWhere">Батарейки можно сдать:\n- пр. X. Туфана, 4/12\n- ул. Ш. Усманова, 45/05 ТЦ «Кызыл Яр» \n- пр. Московский, 26/18 \n- ул. Ш. Усманова, 48/01\n- пр. Мира, 7/13</string>
+    <string name="btnOnStart">В начало</string>
+    <string name="btnBack">btnBack</string>
+
+
+</resources>

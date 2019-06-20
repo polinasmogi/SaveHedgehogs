@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFFFF"
+    tools:context=".ThirdActivity">
+
+    <TextView
+        android:id="@+id/txtThirdActivity"
+        android:layout_width="309dp"
+        android:layout_height="137dp"
+        android:text="@string/txtThirdActivity"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.441"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.304" />
+
+    <TextView
+        android:id="@+id/txtSecondActivity_2"
+        android:layout_width="321dp"
+        android:layout_height="116dp"
+        android:text="@string/txtSecondActivity_2"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.604" />
+
+    <EditText
+        android:id="@+id/editTxtUsersBatteries"
+        android:layout_width="240dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="128dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/editTxtUsersBatteries"
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.08"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnFourthAct"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="128dp"
+        android:onClick="onClick"
+        android:text="@string/btnFourthAct"
+        app:layout_constraintBottom_toBottomOf="@+id/editTxtUsersBatteries"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/editTxtUsersBatteries"
+        app:layout_constraintTop_toTopOf="@+id/editTxtUsersBatteries"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
